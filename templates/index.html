@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Конвертер валют</title>
+</head>
+<body>
+<h1>Конвертер валют</h1>
+<form action="/convert" method="post">
+    <label for="amount">Сумма:</label>
+    <input type="number" id="amount" name="amount" required>
+
+    <label for="from_currency">Из:</label>
+    <input type="text" id="from_currency" name="from_currency" required>
+
+    <label for="to_currency">В:</label>
+    <input type="text" id="to_currency" name="to_currency" required>
+
+    <input type="submit" value="Конвертировать">
+</form>
+</body>
+</html>
